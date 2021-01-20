@@ -1,4 +1,4 @@
-terraform {
+form {
   required_providers {
     google = {
       source = "hashicorp/google"
@@ -10,7 +10,7 @@ terraform {
 provider "google" {
   version = "3.5.0"
 
-  project = "rafael-mbaimpacta-turma04"
+  project = "rafael-cloudautomation"
   region  = "us-central1"
   zone    = "us-central1-c"
 }
