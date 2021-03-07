@@ -15,3 +15,9 @@ variable "gcp_zone" {
   description = "Zona no GCP"
   default     = "us-central1-c"
 }
+## AZURE
+variable "rg_location" {
+  type        = string
+  description = "Definindo a Região do Azure"
+  default     = "East US"
+}
